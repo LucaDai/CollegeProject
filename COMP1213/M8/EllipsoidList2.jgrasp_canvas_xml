@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Canvas xmlns="http://www.jgrasp.org">
+  <Language>Java</Language>
+  <ShowTypes>false</ShowTypes>
+  <Version>2</Version>
+  <Grid>
+    <Snap>true</Snap>
+    <Show>false</Show>
+  </Grid>
+  <Scope id="0">
+    <Name>totalVolumeTest</Name>
+    <Signature>()V</Signature>
+    <DeclaringType>EllipsoidList2Test</DeclaringType>
+    <Depth>35</Depth>
+  </Scope>
+  <Frame>
+    <Bounds>
+      <AutoSize>true</AutoSize>
+      <X>90</X>
+      <Y>60</Y>
+      <W>135</W>
+      <H>44</H>
+    </Bounds>
+    <LabelLoc>
+      <WO>false</WO>
+    </LabelLoc>
+    <Viewer>
+      <ScopeID>0</ScopeID>
+      <Expression>`local double` volume</Expression>
+      <ViewerClass>jgrasp_viewers._X_ElementView</ViewerClass>
+    </Viewer>
+  </Frame>
+  <Size>
+    <W>960</W>
+    <H>540</H>
+  </Size>
+  <ESize>
+    <W>960</W>
+    <H>540</H>
+  </ESize>
+</Canvas>
