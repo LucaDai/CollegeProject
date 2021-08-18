@@ -137,7 +137,7 @@ Flag LaunchExperiment(void){
       // The proccesses total run experimentDuration, so each run ExperimentDuration / NumberProcesses
       c = 0;
       while (NowRecord - GreenLightTime < ExperimentDuration) {
-          //printf("PID: %d£º ExperimentDuration: %f s Ran so far %f s\n",
+          //printf("PID: %dÂ£Âº ExperimentDuration: %f s Ran so far %f s\n",
               //getpid(), ExperimentDuration, NowRecord - GreenLightTime);
           c++;
           NowRecord = Now();
