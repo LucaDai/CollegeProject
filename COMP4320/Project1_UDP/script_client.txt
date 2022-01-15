@@ -1,0 +1,62 @@
+Script started on 2021-11-03 21:34:32-05:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+]0;root@DESKTOP-N150ORS: /mnt/c/Users/DY/Desktop/udpO/udproot@DESKTOP-N150ORS:/mnt/c/Users/DY/Desktop/udpO/udp# ./s[Kudp_s[Kclient
+Enter ipName:
+192.168.1.200
+Enter port:
+10004
+serverName:
+test
+localName:
+result.txt
+Enter a probability(between 0-1) for error: 
+0.5
+Enter message : 
+GET test.html HTTP/1.1
+recv message:Sequence Number 0
+HTTP/1.0 200 Document Follows
+ogChecksum: 22211
+Content-Type: text/plain
+Content-Length: 558
+
+Data                                                                                                                                                                                                                                                                                                                                                                                                       
+Sequence Number 0
+HTTP/1.0 200 Document Follows
+ogChecksum: 22211
+Content-Type: text/plain
+Content-Length: 558
+
+Data                                                                                                                                                                                                                                                                                                                                                                                                       sumIn:22211 icheckSum:22211
+---------
+recv message:Sequence Number 1
+ogChecksum: 44530
+
+The User Datagram Protocol (UDP) is a lightweight data transport protocol that works on top of IP.
+UDP provides a mechanism to detect corrupt data in packets, but it does not attempt to solve other problems that arise with packets, such as lost or out of order packets. That's why UDP is sometimes known as the Unreliable Data Protocol.
+UDP is simple but fast, at least in comparison to other protocols that work over IP. It's often used for time-sensitive applica
+Sequence Number 1
+ogChecksum: 44530
+
+The User Datagram Protocol (UDP) is a lightweight data transport protocol that works on top of IP.
+UDP provides a mechanism to detect corrupt data in packets, but it does not attempt to solve other problems that arise with packets, such as lost or out of order packets. That's why UDP is sometimes known as the Unreliable Data Protocol.
+UDP is simple but fast, at least in comparison to other protocols that work over IP. It's often used for time-sensitive applica sumIn:44530 icheckSum:44530
+---------
+recv message:Sequence Number 2
+ogChecksum: 23394
+
+tions (such as real-time video streaming) where speed is more important than accuracy.
+Sequence Number 2
+ogChecksum: 23394
+
+tions (such as real-time video streaming) where speed is more important than accuracy.                                                                                                                                                                                                                                                                                                                                                                                                   sumIn:23394 icheckSum:11074
+
+An error was detected in this packet: Sequence Number 2
+ogChecksum: 23394
+
+tions (such as real-time video streaming) where speed is more important than accuracy.-----------------------------------the full message is:
+The User Datagram Protocol (UDP) is a lightweight data transport protocol that works on top of IP.
+UDP provides a mechanism to detect corrupt data in packets, but it does not attempt to solve other problems that arise with packets, such as lost or out of order packets. That's why UDP is sometimes known as the Unreliable Data Protocol.
+UDP is simple but fast, at least in comparison to other protocols that work over IP. It's often used for time-sensitive applications (such as real-time video streaming) where speed is more important than accuracy.
+]0;root@DESKTOP-N150ORS: /mnt/c/Users/DY/Desktop/udpO/udproot@DESKTOP-N150ORS:/mnt/c/Users/DY/Desktop/udpO/udp# exit
+exit
+
+Script done on 2021-11-03 21:35:21-05:00 [COMMAND_EXIT_CODE="0"]
